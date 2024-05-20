@@ -1,3 +1,4 @@
+## Общее описание
 Учебный проект для знакомства с Kafka. 
 Состоит из 2 микросервисов: MetricProducer и MetricConsumer. MetricProducer - собирает метрики о себе из Spring Boot Actuator и передает из через Kafka в MetricConsumer.
 Помимо самих микропроцессоро содержит docker-compose.yml для подъема необходимого окружения в докере (Zookeeper и Kafka).
